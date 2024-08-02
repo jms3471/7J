@@ -1319,8 +1319,9 @@ def main(page: Page):
 
     dlg = AlertDialog(
     title=Text("SETe Jota v.0", size=20, weight=FontWeight.W_500, text_align=TextAlign.CENTER),
-    content=Column([Text("Software Educacional Economizador de Tempo do Jonathan\n\nCriado por JMS sob licença GPLv3", size=15),
-                    Text("Disponível em: ", spans=[TextSpan("github.com/jhon3471/7J", TextStyle(weight=FontWeight.W_600, color=colors.TEAL_800, decoration=TextDecoration.UNDERLINE, decoration_color=colors.TEAL_800), url="https://github.com/jhon3471/7J")], size=15)],
+    content=Column([Text("Software Educacional Economizador de Tempo do Jonathan", size=16, weight=FontWeight.W_600, expand=2),
+                    Text("Criado por JMS sob licença GPLv3", size=15, weight=FontWeight.W_400, expand=1 ),
+                    Text("Disponível em: ", spans=[TextSpan("github.com/jms3471/7J", TextStyle(weight=FontWeight.W_600, color=colors.TEAL_800, decoration=TextDecoration.UNDERLINE, decoration_color=colors.TEAL_800), url="https://github.com/jms3471/7J")], size=15, expand=1)],
                     height=120),
     icon=Image(src='icon.png', fit=ImageFit.FIT_HEIGHT, height=50)
     )
@@ -1837,7 +1838,7 @@ def main(page: Page):
                     Row([pop_menu], alignment=MainAxisAlignment.END),
                     Row(
                         [
-                            Image(src=f"test.png", fit=ImageFit.FIT_WIDTH, width=140),
+                            Image(src=f"eixos.png", fit=ImageFit.FIT_WIDTH, width=140),
                             Text(value="Eixo x é a direção axial\ndo elemento"),
                         ],
                         alignment=MainAxisAlignment.SPACE_BETWEEN,
