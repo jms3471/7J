@@ -100,7 +100,7 @@ Em um ressalto usinado de eixo, o diâmetro menor ($\textit{d}$) é $28$ mm, o d
 
 **Determine o coeficiente de segurança do projeto usando o critério de falha por Goodman.**
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_2/eixo_rebaixo.png" alt="Eixo com rebaixo" width="600" height="auto">  
+<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_2/eixo_rebaixo.png" alt="Eixo com rebaixo" width="150" height="auto">  
 
 
 > [!TIP]  
@@ -128,7 +128,7 @@ Dados de entrada para o aplicativo:
 
 Os dados entre parênteses são inferidos pelo programa, enquanto os valores de  $K_{tf}$,  $q_f$,  $K_{ts}$,  $q_s$ são obtidos a partir de tabelas e gráficos correspondentes, assim como os coeficientes de Marin.
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_2/p1.png" alt="Fadiga - Dados e Resultado" width="800" height="auto">  
+<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_2/p1.png" alt="Fadiga - Dados e Resultado" width="700" height="auto">  
 
 
 
