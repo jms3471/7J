@@ -1,4 +1,4 @@
-# 7J - Software Educacional Economizador de Tempo do Jonathan v.0
+# 7J - Software Educacional Economizador de Tempo do Jonathan v0
 # Avaliar e dimensionar eixos de transmissão
 # Copyright (C) 2024 JMS.
 
@@ -735,15 +735,20 @@ def main(page: Page):
             tensao_escoamento = float(str(sigma_e.value)) * units.fator_cs
             tensao_ruptura = float(str(sigma_u.value)) * units.fator_cs
 
-            Kff = float(str(kff.value))
-            Kfs = float(str(kfs.value))
+            try:
+                Kff = float(str(kff.value))
+                Kfs = float(str(kfs.value))
 
-            Ma = float(str(ma.value))
-            Mm = float(str(mm.value))
-            Ta = float(str(ta.value))
-            Tm = float(str(tm.value))
-            Mmax = float(str(m_max.value))
-            Tmax = float(str(t_max.value))
+                Ma = float(str(ma.value))
+                Mm = float(str(mm.value))
+                Ta = float(str(ta.value))
+                Tm = float(str(tm.value))
+                Mmax = float(str(m_max.value))
+                Tmax = float(str(t_max.value))
+            except:
+                card_fadiga.visible = False
+                page.update()
+                return
 
 
             A = np.sqrt(4 * (Kff * Ma) ** 2 + 3 * (Kfs * Ta) ** 2)
@@ -1318,7 +1323,7 @@ def main(page: Page):
     )
 
     dlg = AlertDialog(
-    title=Text("SETe Jota v.0", size=20, weight=FontWeight.W_500, text_align=TextAlign.CENTER),
+    title=Text("SETe Jota - v0", size=20, weight=FontWeight.W_500, text_align=TextAlign.CENTER),
     content=Column([Text("Software Educacional Economizador de Tempo do Jonathan", size=16, weight=FontWeight.W_600, expand=2),
                     Text("Criado por JMS sob licença GPLv3", size=15, weight=FontWeight.W_400, expand=1 ),
                     Text("Disponível em: ", spans=[TextSpan("github.com/jms3471/7J", TextStyle(weight=FontWeight.W_600, color=colors.TEAL_800, decoration=TextDecoration.UNDERLINE, decoration_color=colors.TEAL_800), url="https://github.com/jms3471/7J")], size=15, expand=1)],

@@ -11,7 +11,7 @@ O aplicativo visa tornar o conteúdo mais acessível e compreensível para os es
 > [!WARNING]  
 > Este software vem com absolutamente **NENHUMA GARANTIA**, sendo projetado para atender estudantes em meio estritamente acadêmico teórico. Qualquer uso fora desse contexto está por sua conta e risco. Para mais informações, consulte a [licença](#licença).
 
-## Como usar
+## Instalação
 
 - Baixar o arquivo executável  (main.exe) localizado **[AQUI!](https://github.com/jms3471/7J/releases/tag/v.0)**  
 
