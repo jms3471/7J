@@ -3,7 +3,7 @@
 
 ## Objetivo e Público-Alvo
 
-**7J**, acrônimo para ***Software Educacional Economizador de Tempo do Jonathan***, tem como objetivo facilitar o dimensionamento de eixos de transmissão, simplificando esse processo para os alunos de graduação em Engenharia Mecânica.  
+**7J**, sigla para ***Software Educacional Economizador de Tempo do Jonathan***, tem como objetivo facilitar o dimensionamento de eixos de transmissão, simplificando esse processo para os alunos de graduação em Engenharia Mecânica.  
 
 O aplicativo visa tornar o conteúdo mais acessível e compreensível para os estudantes, eliminando a necessidade de realizar cálculos extensos e, assim, tornando o tópico mais claro.
 
@@ -13,7 +13,7 @@ O aplicativo visa tornar o conteúdo mais acessível e compreensível para os es
 
 ## Instalação
 
-- Baixar o arquivo executável  (main.exe) localizado **[AQUI!](https://github.com/jms3471/7J/releases/tag/v.0)**  
+- Baixar o arquivo executável localizado **[AQUI!](https://github.com/jms3471/7J/releases/)**  
 
 - Ou clonar o repositório e instalar os pacotes necessários, conforme instruções abaixo:  
 
@@ -22,8 +22,14 @@ O aplicativo visa tornar o conteúdo mais acessível e compreensível para os es
 
 
 1. Após baixar o repositório, crie um ambiente virtual dentro dele.
+    >**Windows**
     ```
     python -m venv venv
+    ```
+
+    >**Linux/Mac**
+    ```
+    python3 -m venv venv
     ```
 
 2. Ative o ambiente.
@@ -47,12 +53,14 @@ O aplicativo visa tornar o conteúdo mais acessível e compreensível para os es
     flet run main.py
     ```
 
+**Usuários de Linux/Mac devem comentar as linhas 1715, 1720 e 1814 para que o aplicativo seja renderizado corretamente, antes de executar o comando acima.**
+
 ## Na prática  
 
 Os exemplos a seguir foram retirados e modificados de *Elementos de Máquinas de Shigley* - 10ª Edição, Richard G. Budynas, J. Keith Nisbeth.
 
 > [!TIP]  
-> O aplicativo funciona com dois sistemas de unidade
+> O aplicativo funciona com dois sistemas de unidades
 >  
 > Métrico :: **N - m - MPa**  
 > Imperial :: **lbf - in - ksi**
@@ -65,7 +73,7 @@ Sobre a engrenagem E1, atua uma força $\textbf{F}_1 =(-197j + 540k)$ lbf com po
 
 <img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_1/eixo_exemplo_1.png" alt="Desenho Esquemático" width="600" height="auto">
 
-**Plotar o momento fletor no plano horizontal $(x - z)$ e vertical (x - y) e o diagrama do torque.**
+**Plotar o momento fletor no plano horizontal $(x - z)$ e vertical $(x - y)$ e o diagrama do torque.**
 
 ***
 
