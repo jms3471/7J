@@ -1,5 +1,5 @@
 # 7J
-<img src="https://github.com/jms3471/7J/blob/main/assets/icon.png" alt="Logo 7J" width="200" height="auto">
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/assets/icon.png" alt="Logo 7J" width="200" height="auto">
 
 ## Objetivo e Público-Alvo
 
@@ -71,7 +71,7 @@ Um eixo com 11,5'' de comprimento é suportado por dois mancais localizados a 0,
 
 Sobre a engrenagem E1, atua uma força $\textbf{F}_1 =(-197j + 540k)$ lbf com posição $\textbf{r}_1 = (2,75i + 6j)$ in, e sobre a engrenagem E2, atua $\textbf{F}_2 =( -885j - 2431k)$ lbf com posição $\textbf{r}_2 = (8,5i + 1,335j)$. 
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_1/eixo_exemplo_1.png" alt="Desenho Esquemático" width="600" height="auto">
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/Exemplos/Exemplo_1/eixo_exemplo_1.png" alt="Desenho Esquemático" width="600" height="auto">
 
 **Plotar o momento fletor no plano horizontal $(x - z)$ e vertical $(x - y)$ e o diagrama do torque.**
 
@@ -79,15 +79,15 @@ Sobre a engrenagem E1, atua uma força $\textbf{F}_1 =(-197j + 540k)$ lbf com po
 
 Adição das características do eixo e quantidade de cargas:  
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_1/p1.png" alt="Estática - Tela 1" width="400" height="auto">
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/Exemplos/Exemplo_1/p1.png" alt="Estática - Tela 1" width="400" height="auto">
 
 Adição das cargas concentradas (somente $F_1$ mostrada):  
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_1/p2.png" alt="Estática - Tela 2" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/Exemplos/Exemplo_1/p2.png" alt="Estática - Tela 2" width="300" height="auto">
 
 Resultado após a adição das duas forças:  
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_1/p3.png" alt="Estática - Resultado" width="600" height="auto">  
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/Exemplos/Exemplo_1/p3.png" alt="Estática - Resultado" width="600" height="auto">  
 
 
 > [!NOTE]  
@@ -108,7 +108,7 @@ Em um ressalto usinado de eixo, o diâmetro menor ($\textit{d}$) é $28$ mm, o d
 
 **Determine o coeficiente de segurança do projeto usando o critério de falha por Goodman.**
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_2/eixo_rebaixo.png" alt="Eixo com rebaixo" width="150" height="auto">  
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/Exemplos/Exemplo_2/eixo_rebaixo.png" alt="Eixo com rebaixo" width="150" height="auto">  
 
 
 > [!TIP]  
@@ -136,7 +136,7 @@ Dados de entrada para o aplicativo:
 
 Os dados entre parênteses são inferidos pelo programa, enquanto os valores de  $K_{tf}$,  $q_f$,  $K_{ts}$,  $q_s$ são obtidos a partir de tabelas e gráficos correspondentes, assim como os coeficientes de Marin.
 
-<img src="https://github.com/jms3471/7J/blob/main/Exemplos/Exemplo_2/p1.png" alt="Fadiga - Dados e Resultado" width="700" height="auto">  
+<img src="https://raw.githubusercontent.com/jms3471/7J/refs/heads/main/Exemplos/Exemplo_2/p1.png" alt="Fadiga - Dados e Resultado" width="700" height="auto">  
 
 
 
